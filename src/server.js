@@ -10,6 +10,7 @@ app.use(express.json())
 // Puerto del servidor
 const port = process.env.PORT || 3000
 // Conexion a MongoDB
+//ex: mongodb+srv://cvmanager:<password>@mhcluster.cxrir.mongodb.net/CVManager?retryWrites=true&w=majority
 mongoose.connect("mongodbURI")
 
 // API/CRUD/Routes
