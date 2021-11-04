@@ -1,0 +1,19 @@
+{
+  "name": "cv-manager",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae Manager",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "curriculum",
+    "cv"
+  ],
+  "author": "Melanny Hernandez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
